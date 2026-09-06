@@ -47,3 +47,6 @@ cp -f brcmfmac43430-sdio.bin brcmfmac43430-sdio.txt /lib/firmware/brcm/
 rm -f /lib/firmware/brcm/brcmfmac43430-sdio.*.zst /lib/firmware/brcm/brcmfmac43430-sdio.clm_blob*
 ```
 
+## Note
+
+- Dopo l'installazione di Alpine potrebbe essere necessario cambiare boot order da BIOS, sostituendo `Built-in EFI` con `Android-IA`
